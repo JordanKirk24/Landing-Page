@@ -1,0 +1,230 @@
+/* CSS Stylesheet for Landing Page */
+
+body {
+    display: flex;
+    flex-direction: column;
+
+}
+.header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    align-items: center;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.logo {
+    display: flex;
+    height: 100px;
+    margin-left: 20px;
+    
+}
+
+img {
+    border-radius: 5px;
+    margin: 5px;
+}
+
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.section1 {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    text-wrap: wrap;
+}
+
+.left1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 10px;
+    padding: 10px;    
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8
+}
+
+.l1p {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.right1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+button {
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #3882f6;
+    border: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.h2 {
+    color: #1f2937;
+}
+
+.blockrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.b1
+ {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    flex-grow: 1;
+    width: 40vh;
+}
+
+.b2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    flex-grow: 1;
+    width: 40vh;
+}
+
+.b3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    flex-grow: 1;
+    width: 40vh;
+}
+
+.b4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+    flex-grow: 1;
+    width: 40vh;
+}
+
+.p {
+    max-height: 50%;
+    min-width: 50%;
+    object-fit: cover;
+    vertical-align: bottom; 
+}
+
+
+.section3 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 100;
+}
+
+.section3 p {
+    font-family: serif;
+    margin: 20px 100px 0px 100px;
+    padding: 20px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1F2937;
+    font: italic lighter 36px Helvetica, Arial, sans-serif;
+}
+
+
+
+figcaption {
+    font-family: serif;
+    align-self: flex-end;
+    font: italic bold 30px Helvetica, Arial, sans-serif;
+    color: #1F2937;
+    margin: 0px 100px 20px 0px;
+}
+
+.call {
+    background-color: #3882f6;
+    padding: 20px;
+    margin: 100px 150px 100px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 2px;
+    border-radius: 10px;
+
+}
+
+.left4 {
+    
+    color: white;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+.right4 {
+    display: flex;
+    align-items: center;
+}
+
+.right4 button {
+    background-color: #3882f6;
+    border: 2px solid white;
+    padding: 15px;
+
+}
+
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: normal;
+
+}
